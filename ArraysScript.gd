@@ -45,7 +45,7 @@ func _ready():
 	newArray.push_back(3)
 	
 	# a change in the subarray will have zero effect on duplicateArray
-	print('deepCopySimpleArray: ', deepCopy) # [[1,2,3]]
+	print('deepCopySimpleArray: ', deepCopy) # [[1,2]]
 	print('simpleArray: ', simpleArray) # [[1,2,3]]
 	
 	
