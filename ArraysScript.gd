@@ -6,7 +6,7 @@ var simpleArray = [1,2,3,4,5]
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	
-	# sub arrays
+	# sub-arrays
 	var subarray = [[1,2],[3,4]]
 	print('subarray: ', subarray[1][0])
 	
@@ -41,10 +41,10 @@ func _ready():
 	# duplicate
 	var deepCopy = simpleArray.duplicate(true)
 	
-	# edit suubarray
+	# edit sub-array
 	newArray.push_back(3)
 	
-	# a change in the subarray will have zero effect on duplicateArray
+	# a change in the sub-array will have zero effect on duplicateArray
 	print('deepCopySimpleArray: ', deepCopy) # [[1,2]]
 	print('simpleArray: ', simpleArray) # [[1,2,3]]
 	
@@ -64,7 +64,7 @@ func _ready():
 	# edit suubarray
 	anotherArray.push_back(3)
 	
-	# a change in the subarray will have zero effect on duplicateArray
+	# a change in the sub-array will have zero effect on duplicateArray
 	print('shallowCopySimpleArray: ', shallowCopy) # [[1,2,3]]
 	print('simpleArray: ', simpleArray) # [[1,2,3]]
 	
