@@ -64,7 +64,7 @@ func _ready():
 	# edit suubarray
 	anotherArray.push_back(3)
 	
-	# a change in the subarray will have zero effect on duplicateArray
+	# a change in the subarray will have effects on duplicateArray
 	print('shallowCopySimpleArray: ', shallowCopy) # [[1,2,3]]
 	print('simpleArray: ', simpleArray) # [[1,2,3]]
 	
